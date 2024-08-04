@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+.bg-position-custom {
+    background-position: top 40% right 0;
+  }
+
+.active::after,
+.hovered::after {
+  content: '';
+  width: 30%;
+  height: 2px;
+  position: absolute;
+  bottom: -4px;
+  left: 25%;
+  background: #e2e8f0;
+  transition: width 0.3s;
+}
