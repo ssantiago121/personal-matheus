@@ -1,14 +1,21 @@
+import Banner from '../assets/img/banner.png'
+
 export default function Main() {
     return (
         <>
-        <section className="bg-[url(./assets/img/banner.png)] bg-cover bg-no-repeat h-full bg-center w-screen px-20 flex flex-col items-start justify-center">
-            <hgroup className="block">
-                    <h1 className="text-6xl text-[#222] mb-4">Trade-in-offer</h1>
-                    <h2 className="text-5xl text-[#222] font-medium mb-2">Super value deals</h2>
-                    <h3 className="text-2xl text-[#008178]">On all products</h3>
-                    <p className="text-xl font-bold text-[#465b52] mt-4 mb-4">Save more with coupons & up to 70% off!</p>
-            </hgroup>
-            <button className="bg-[url(./assets/img/button.png)] bg-transparent text-[#008178] font-bold pt-3.5 pr-20 pb-3.5 pl-16">Shop Now</button>
+        <section className="">
+            <img className="w-full" src={Banner} alt="Foto do Personal Matheus Lucena" />
+            <section className="mb-0 rounded-0 text-center bg-dark py-5">
+            <hr className="border-slate-400" />
+                <div className="m-14 mx-auto max-w-screen-lg p-2 py-5">
+                    <h1 className="text-5xl text-slate-200 font-weight-bold">Alcance seu melhor condicionamento</h1>
+                    <p className="text-slate-400 p-4">Treinos específico para alcançar os seus objetivos</p>
+                    <p className='p-4'>
+                        <a href="#planos" class="bg-gray-600 text-white font-bold py-2 px-4 rounded my-2 hover:bg-yellow-500">Escolha seu plano</a>
+                    </p>
+                </div>
+            <hr class="border-slate-400" />
+          </section>
         </section>
         </>
     )
