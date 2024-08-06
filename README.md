@@ -1,8 +1,17 @@
-# React + Vite
+Markdown
+# **Site do Personal Trainer - Corpo em Forma**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sobre o projeto
+Este repositório contém o código fonte do site do personal trainer **[Seu nome]**. O objetivo do site é fornecer informações sobre os serviços oferecidos, horários de atendimento e entrar em contato.
 
-Currently, two official plugins are available:
+## Tecnologias utilizadas
+* **Vite:** Ferramenta de build rápida para projetos front-end
+* **React:** Biblioteca JavaScript para construção de interfaces de usuário.
+* **Tailwind CSS:** Framework CSS utilitário para estilização rápida e customizável.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+## Acesse o site
+[Acesse o site](https://seu-usuario.github.io/seu-repositorio)
+
+![Imagem do site](./src/assets/img/screenshot.png)
