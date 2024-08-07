@@ -16,15 +16,15 @@ const Navbar = () => {
   };
 
   const navLinks = [
-    { name: 'Sobre', href: '#' },
-    { name: 'Treinos', href: '#' },
+    { name: 'Sobre', href: '#sobre' },
+    { name: 'Treinos', href: '#treinos' },
     { name: 'Planos', href: '#planos'},  
-    { name: 'Contato', href: '#' },
+    { name: 'Contato', href: '#contato' },
   ];
 
   return (
     <nav className="flex items-center justify-between px-6 py-4 md:px-20 md:py-4 sticky shadow-md z-10">
-        <a href="#">
+        <a href="/">
             <div className="text-slate-300 font-bold flex">
                 <a className="content-center" href="index.html" alt="Logomarca MAtheus Lucena"><FaGripfire className="size-10"/></a>
                 <div className="w-full px-4 py-2">

@@ -3,7 +3,7 @@ import Banner from '../assets/img/banner.png'
 export default function Main() {
     return (
         <>
-        <section className="">
+        <section id="main">
             <img className="w-full" src={Banner} alt="Foto do Personal Matheus Lucena" />
             <section className="mb-0 rounded-0 text-center bg-dark py-5">
             <hr className="border-slate-400" />

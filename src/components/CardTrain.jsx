@@ -20,7 +20,7 @@ export default function CardTrain() {
                             <div className="p-6">
                                 <h5 className="text-lg font-bold text-white mb-2">Consultoria Online</h5>
                                 <p className="text-gray-300 mb-4">Acompanhamento online através do aplicativo "Mfit"</p>
-                                <a href="#" className="bg-gray-500 text-white font-bold py-2 px-4 rounded hover:bg-lime-500 ">Conheça</a>
+                                <a href="https://www.youtube.com/watch?v=INjHJncwgRc" className="bg-gray-500 text-white font-bold py-2 px-4 rounded hover:bg-lime-500 ">Conheça</a>
                             </div>
                         </div>
                     </div>
@@ -35,6 +35,8 @@ export default function CardTrain() {
                 </div>
             </div>
         </section>
+
+        <hr className="border-slate-400" />
         </>
     )
 }

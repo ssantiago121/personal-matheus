@@ -6,8 +6,8 @@ const About = () => {
     <section id="sobre" className="px-6">
       <div className="text-gray-200 flex flex-wrap lg:flex-nowrap p-6 gap-10">
         <div className="lg:w-6/12 p-2 flex flex-col justify-start">
-          <h1 className="text-center text-4xl text-left font-bold text-yellow-500 py-3 mb-2 lg:text-6xl">CONHEÇA O SEU PERSONAL TRAINER</h1>
-          <p className="mt-4 text-lg text-justify lg:text-3xl lg:mt-16">
+          <h1 className="text-center text-4xl text-left font-bold text-slate-200 py-3 mb-2 lg:text-6xl">CONHEÇA O SEU PERSONAL TRAINER</h1>
+          <p className="mt-4 text-lg text-justify lg:text-2xl lg:mt-16">
             Eu sou Matheus Lucena, e estou aqui para guiá-lo rumo ao seu melhor condicionamento físico.
             Com anos de experiência em treinamento e uma paixão por ajudar as pessoas a alcançarem seus
             objetivos, estou determinado a tornar sua jornada de condicionamento físico emocionante,
